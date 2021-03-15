@@ -1,3 +1,16 @@
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
+
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -78,9 +91,18 @@ img {
 
 
 @media all and (min-width:0) and (max-width:767px) {
-
-  #lezioni .row {
-  margin-top: 0px;
+  
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0PX;
+    margin-bottom: 20px;
+  }
+  
+  #why .col-12.first,
+  #why .col-12.second,
+  #why .col-12.third {
+    margin-top: 10px;
   }
   .container.grey {
     background-color: #f2f2cd;
