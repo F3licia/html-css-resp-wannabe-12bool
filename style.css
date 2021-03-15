@@ -1,5 +1,4 @@
 .row {
-  width: 992px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -71,3 +70,23 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/*-------*/
+
+
+
+@media all and (min-width:0) and (max-width:767px) {
+
+  #lezioni .row {
+  margin-top: 0px;
+  }
+  .container.grey {
+    background-color: #f2f2cd;
+  }
+  #lezioni.container{
+    background-color: #f2f2cd;
+  }
+}
+  

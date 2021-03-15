@@ -1,5 +1,4 @@
 
-
 .row::after {
     content: "";
     display: table;
@@ -9,7 +8,6 @@
 [class*="col-"] {
     float: left;
 }
-
 
 .col-1{
     width: calc(100% / 12);
@@ -85,4 +83,15 @@
 }
 .col-offset-12{
     margin-left: 100%;
+}
+
+
+
+
+@media all and (min-width:0) and (max-width:767px) {
+
+    [class*="col-xs"] {
+        min-width: 100%;
+        float:none
+    }
 }
