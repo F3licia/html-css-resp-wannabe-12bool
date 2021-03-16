@@ -91,24 +91,29 @@ img {
 
 
 @media all and (min-width:0) and (max-width:767px) {
-  
+
   .row {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0PX;
+    margin-top: 0px;
     margin-bottom: 20px;
-  }
-  
-  #why .col-12.first,
-  #why .col-12.second,
-  #why .col-12.third {
-    margin-top: 10px;
   }
   .container.grey {
     background-color: #f2f2cd;
   }
   #lezioni.container{
     background-color: #f2f2cd;
+  }
+  .title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  img {
+    height: 100px;
+  }
+  
+  #why .col-12.first,
+  #why .col-12.second,
+  #why .col-12.third {
+    margin-top: 10px;
   }
 }
   
